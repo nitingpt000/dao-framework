@@ -1,0 +1,16 @@
+[package]
+name = "DAOFramework"
+version = "1.0.0"
+authors = []
+
+[addresses]
+dao_creator = "0x2daf31224d9e41d96877d934301a8d26a9348e22f5fa401eceee89d86c3bfc7b"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
